@@ -51,6 +51,7 @@ Example CSV columns:
 
 ```csv
 name,valid,invalid_bases,length,gc_content,a_count,t_count,c_count,g_count,orf_count
+```
 
 ## Biological Concepts Used
 
@@ -90,28 +91,11 @@ The program follows this workflow:
 ## Files in This Repository
 
 ```text
-dna-sequence-analyzer-python/
+dna-sequence-analyzer/
 ├── sequence_analyzer.py
 ├── sample_sequences.fasta
 └── README.md
 ```
-
-
-The important thing is that the CSV block has:
-
-```md
-```csv
-```
-
-at the start and:
-
-```md
-```
-```
-
-at the end.
-
-Other than that, the README looks good. Also, for a Python repo, it is normal that GitHub Pages only shows the README/project explanation. The actual Python program runs in Terminal or VS Code, not directly on the webpage.
 
 ## Sample Dataset
 
